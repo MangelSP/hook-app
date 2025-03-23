@@ -1,11 +1,11 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css';
 
-import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook';
+
+import { Padre } from './07-tarea-memo/Padre';
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <CounterWithCustomHook />
-  </StrictMode>,
+  // <StrictMode>
+  <Padre />
+  // </StrictMode>,
 )
